@@ -11,6 +11,7 @@ public class HelloController {
 	@ResponseBody
 	public String test() {
 		System.out.println("test2");
+		System.out.println("I have resolved the conflict");
 		return "success";
 	}
 }
